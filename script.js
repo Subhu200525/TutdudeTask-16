@@ -36,6 +36,7 @@ const searchBtn = document.querySelector("#searchBtn");
 const studentContainer = document.querySelector("#studentContainer");
 
 function displayStudents(studentList) {
+
     studentContainer.innerHTML = "";
 
     if (studentList.length === 0) {
@@ -46,14 +47,16 @@ function displayStudents(studentList) {
     }
 
     studentList.forEach(student => {
+
         const div = document.createElement("div");
 
         div.classList.add("student");
 
         div.innerHTML = `
             <h2>${student.name}</h2>
-            <p>Age: ${student.age}</p>
-            <p>Course: ${student.course}</p>
+            <p>Marks: ${student.marks}</p>
+            <p>Class: ${student.class}</p>
+            <p>Address: ${student.address}</p>
         `;
 
         studentContainer.appendChild(div);
@@ -61,6 +64,7 @@ function displayStudents(studentList) {
 }
 
 searchBtn.addEventListener("click", () => {
+
     const searchText = searchInput.value.trim().toLowerCase();
 
     const filteredStudents = students.filter(student =>
