@@ -29,6 +29,13 @@ const students = [
         class: "11th",
         address: "Jamshedpur"
     }
+
+       {
+        name: "Nidhi Sharma",
+        marks: "76%",
+        class: "11th",
+        address: " Patamda,Jamshedpur"
+    }
 ];
 
 const searchInput = document.querySelector("#searchInput");
