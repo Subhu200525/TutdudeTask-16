@@ -1,25 +1,25 @@
 const students = [
     {
         name: "Rahul Kumar",
-        marks: 85,
+        marks: "90%",
         class: "12th",
         address: "Jamshedpur"
     },
     {
         name: "Aman Singh",
-        marks: 78,
+        marks: "50%",
         class: "11th",
         address: "Ranchi"
     },
     {
         name: "Rohit Kumar",
-        marks: 92,
+        marks: "92%",
         class: "12th",
         address: "Bokaro"
     },
     {
         name: "Priya Kumari",
-        marks: 88,
+        marks: "80%",
         class: "10th",
         address: "Dhanbad"
     },
