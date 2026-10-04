@@ -28,9 +28,9 @@ const students = [
         marks: "76%",
         class: "11th",
         address: "Jamshedpur"
-    }
+    },
 
-       {
+    {
         name: "Nidhi Sharma",
         marks: "76%",
         class: "11th",
